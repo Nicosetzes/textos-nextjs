@@ -1,9 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import styles from "./styles.module.css";
 import Image from "next/image";
-import ReactQuill from "react-quill";
+
+// Importing this client side as it mounts on the document object
+const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 import "react-quill/dist/quill.bubble.css";
 
 export default function WriteNewPost() {
