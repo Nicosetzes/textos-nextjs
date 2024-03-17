@@ -1,11 +1,9 @@
-import LoginForm from "@/app/ui/login-form";
+// import LoginForm from "@/app/ui/login-form";
 
 export default function LoginPage() {
   return (
     <main>
-      <div>
-        <LoginForm />
-      </div>
+      <div>{/* <LoginForm /> */}</div>
     </main>
   );
 }
