@@ -1,7 +1,11 @@
-export default function Login() {
+import LoginForm from "@/app/ui/login-form";
+
+export default function LoginPage() {
   return (
-    <>
-      <div>Login</div>
-    </>
+    <main>
+      <div>
+        <LoginForm />
+      </div>
+    </main>
   );
 }
