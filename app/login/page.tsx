@@ -1,9 +1,12 @@
-// import LoginForm from "@/app/ui/login-form";
+import LoginForm from "./../ui/loginForm";
 
 export default function LoginPage() {
   return (
     <main>
-      <div>{/* <LoginForm /> */}</div>
+      <div>
+        Hola
+        <LoginForm />
+      </div>
     </main>
   );
 }
